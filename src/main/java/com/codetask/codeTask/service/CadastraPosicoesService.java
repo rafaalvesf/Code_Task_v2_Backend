@@ -1,4 +1,5 @@
 package com.codetask.codeTask.service;
 
-public class cadastraPOIService {
+public class CadastraPosicoesService {
+
 }

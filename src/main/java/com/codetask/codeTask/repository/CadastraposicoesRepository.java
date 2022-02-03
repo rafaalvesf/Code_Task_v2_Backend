@@ -1,4 +1,4 @@
 package com.codetask.codeTask.repository;
 
-public class cadastraPOIRepository {
+public class CadastraposicoesRepository {
 }

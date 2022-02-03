@@ -1,4 +1,4 @@
 package com.codetask.codeTask.controller;
 
-public class cadastraPOIController {
+public class GetTempoController {
 }

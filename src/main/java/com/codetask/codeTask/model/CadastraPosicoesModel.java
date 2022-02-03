@@ -1,4 +1,4 @@
 package com.codetask.codeTask.model;
 
-public class getTempo {
+public class CadastraPosicoesModel {
 }
