@@ -5,6 +5,8 @@ import com.codetask.codeTask.repository.CadastraPOIRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class CadastraPOIService {
     @Autowired
@@ -12,5 +14,8 @@ public class CadastraPOIService {
 
     public CadastraPOIModel criarPOI(CadastraPOIModel cadastraPOIModel){
         return this.cadastraPOIRepository.save(cadastraPOIModel);
+    }
+    public List<CadastraPOIModel> findAll() {
+        return this.cadastraPOIRepository.findAll();
     }
 }

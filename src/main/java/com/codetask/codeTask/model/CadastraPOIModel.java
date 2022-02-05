@@ -20,10 +20,10 @@ public class CadastraPOIModel {
     @Column(name = "nome", nullable = false)
     private String nome;
     @Column(name = "raio", nullable = false)
-    private String raio;
+    private Double raio;
     @Column(name = "latitude", nullable = false)
-    private String latitude;
+    private Double latitude;
     @Column(name = "longitude", nullable = false)
-    private String longitude;
+    private Double longitude;
 
 }

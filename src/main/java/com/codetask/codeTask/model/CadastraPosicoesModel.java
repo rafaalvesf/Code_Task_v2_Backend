@@ -21,11 +21,12 @@ public class CadastraPosicoesModel {
     @Column(name = "data_posicao", nullable = false)
     private String data_posicao;
     @Column(name = "velocidade", nullable = false)
-    private String velocidade;
+    private Double velocidade;
     @Column(name = "longitude", nullable = false)
-    private String longitude;
+    private Double longitude;
     @Column(name = "latitude", nullable = false)
-    private String latitude;
+    private Double latitude;
     @Column(name = "ignicao", nullable = false)
-    private String ignicao;
+    private Boolean ignicao;
+
 }
