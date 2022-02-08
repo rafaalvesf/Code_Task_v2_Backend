@@ -3,6 +3,7 @@ package com.codetask.codeTask.model;
 import lombok.*;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Getter
 @Setter
@@ -11,12 +12,12 @@ import javax.persistence.*;
 @EqualsAndHashCode
 @Builder
 
-public class GetTempoModel {
+public class GetTempoModel implements Serializable {
 
 
     private String nome;
 
     private String placa;
 
-    private String tempo;
+    private Integer tempoemminutos;
 }

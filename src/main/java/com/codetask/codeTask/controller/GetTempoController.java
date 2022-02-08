@@ -20,7 +20,6 @@ public class GetTempoController {
     GetTempoService getTempoService;
 
     @GetMapping
-
     public List<GetTempoModel> getTempo() {
         return getTempoService.getTempo();
     }

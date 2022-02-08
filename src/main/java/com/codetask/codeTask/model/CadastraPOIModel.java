@@ -13,10 +13,8 @@ import java.io.Serializable;
 @Builder
 @Entity
 @Table(name = "base_poi")
-public class CadastraPOIModel {
+public class CadastraPOIModel implements Serializable{
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
     @Column(name = "nome", nullable = false)
     private String nome;
     @Column(name = "raio", nullable = false)
