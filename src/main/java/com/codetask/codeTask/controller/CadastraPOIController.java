@@ -21,4 +21,6 @@ public class CadastraPOIController {
     public List<CadastraPOIModel> findAll() {
         return cadastraPOIService.findAll();
     }
+
+
 }
