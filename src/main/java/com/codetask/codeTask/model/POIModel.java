@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Builder
 @Entity
 @Table(name = "base_poi")
-public class CadastraPOIModel implements Serializable{
+public class POIModel implements Serializable {
     @Id
     @Column(name = "nome", nullable = false)
     private String nome;

@@ -2,7 +2,6 @@ package com.codetask.codeTask.model;
 
 import lombok.*;
 
-import javax.persistence.*;
 import java.io.Serializable;
 
 @Getter
@@ -14,10 +13,7 @@ import java.io.Serializable;
 
 public class GetTempoModel implements Serializable {
 
-
     private String nome;
-
     private String placa;
-
     private Integer tempoemminutos;
 }

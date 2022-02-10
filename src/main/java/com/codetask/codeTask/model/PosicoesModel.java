@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Builder
 @Entity
 @Table(name = "posicoes")
-public class CadastraPosicoesModel implements Serializable {
+public class PosicoesModel implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
